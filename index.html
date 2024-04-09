@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>사용자 입력실습</h1>
+    <hr>
+    <h2>회원가입</h2>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <label for="id"></label> 아이디 <input type="text" name="" id="id">
+            <br>
+            <label for="pass">비밀번호</label> <input type="password" name="" id="pass">
+            <br>
+            <label for="repass"> 비밀번호 확인</label> <input type="password" name="" id="repass">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                회원 정보
+            </legend>
+            <label for="name">이름</label><input type="text" name="" id="name">
+            <br>
+            <label for="gender">성별</label>
+            <label for="male">남</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">여</label>
+            <input type="radio" name="gender" id="female" checked>
+
+            <br>
+            생년월일
+            <select for="birth_year" name="birth_year">
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+            </select>
+            <label for="birth_year" name="birth_year">년</label>
+            <select for="birth_month" name="birth_month">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <label for="birth_month">월</label>
+            <select id="birth_day" name="birth_day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <label for="birth_day">일</label>
+            <br>
+            <label for="email">이메일</label>
+            <input id="email" type="email" name="email" required>
+        </fieldset>
+        <br>
+        <input id="clear" type="reset">
+        &nbsp;
+        <input id="submit" type="submit">
+    </form>
+</body>
+</html>
